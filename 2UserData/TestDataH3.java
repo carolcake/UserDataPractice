@@ -1,0 +1,24 @@
+/*Caroline Hsu - 9/22/20
+	This program shows the doubles and triples of numbers */
+public class TestDataH3
+{
+	public static void main(String[] args)
+	{
+		// This section declares variables
+		int inputNumber = 17;
+		final int DOUBLE_COEFFICIENT = 2;
+		final int TRIPLE_COEFFICIENT = 3;
+		int doubleNumber;
+		int tripleNumber;
+		
+		// This section doubles the number
+		doubleNumber = inputNumber * DOUBLE_COEFFICIENT;
+		System.out.println("The value of " + inputNumber +
+												" doubled is " + doubleNumber);
+		
+		// This sections triples the number
+		tripleNumber = inputNumber * TRIPLE_COEFFICIENT;
+		System.out.println("The value of " + inputNumber +
+											 " tripled is " + tripleNumber);
+	}
+}

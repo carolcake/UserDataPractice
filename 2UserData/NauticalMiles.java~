@@ -1,0 +1,30 @@
+/* Caroline Hsu - 09/28/2020
+This program computes the number of nautical miles in miles and kilometers
+for any given job.
+*/
+public class NauticalMiles
+{
+	public static void main (String[] args)
+		{
+			// This section declares variables
+			int nauticalMiles = 53;
+			double miles;
+			double kilometers;
+			final double NAUTICAL_MILE_KM = 1.852;
+			final double NAUTICAL_MILE_MILE = 1.15;
+			
+			// This section computes the value of kilometers in 53 nautical miles
+			kilometers = nauticalMiles / NAUTICAL_MILE_KM;
+			System.out.println("We need to compute the amount of kilometers in " + 
+													nauticalMiles + " nautical miles.");
+			System.out.printf("The amount of kilometers in " + nauticalMiles +
+												" nautical miles is %6.3f kilometers. \n" , kilometers);
+			
+			// This section computes the value of miles in 53 nautical miles
+			miles = nauticalMiles / NAUTICAL_MILE_MILE;
+			System.out.println("We need to compute the amount of kilometers in " + 
+													nauticalMiles + " nautical miles.");
+			System.out.printf("The amount of kilometers in " + nauticalMiles +
+												" nautical miles is %6.3f kilometers. \n" , kilometers);
+		}
+}
